@@ -1,0 +1,23 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Random rand = new Random();
+    String[] array = { "minyak bumi", "dumai.riau", "bahan bakar kendaraan", "batubara",
+        "bukit asam. sawah lunto. sumbar", "bahan bakar pembangkit listrik", "gas alam", "bontang kaltim. arum aceh",
+        "gas lpg", "timah putih", "singkep riau. bangka belitung 2", "pelapis anti karat", "emas",
+        "mimika. sumbawa . papua. cikotok jabar", "perhiasan", "intan", "martapura. kalsel", "bauksit",
+        "pulau bintan riau", "bahan baku aluminium", "aspal", "pulau buton, sulawesi tenggara", "bikin jalan",
+        "tembaga", "tembagapura papua", "bikin kabel", "nikel", "soroako sulawesi selatan",
+        "bahan bikin koin dan bahan motor, bahan batre",
+        "mangan", "kupang ntt", "campuran logam", "pasir besi", "lumajang jatim. cilacap. jabar", "buat bikin besi",
+        "belerang", "dieng, jatim", "timbal", "bangkinag riau", "bahan dasar batre", "seng", "dairi sumut",
+        "campuran batre. pentup atap" };
+
+    int r = rand.nextInt(array.length);
+
+    System.out.println(array[r]);
+  }
+}
